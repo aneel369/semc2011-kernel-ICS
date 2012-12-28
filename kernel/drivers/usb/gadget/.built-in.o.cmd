@@ -1,1 +1,0 @@
-cmd_drivers/usb/gadget/built-in.o :=  ../arm-2010q1/bin/arm-none-eabi-ld -EL    -r -o drivers/usb/gadget/built-in.o drivers/usb/gadget/msm72k_udc.o drivers/usb/gadget/android.o drivers/usb/gadget/marlin_scsi_ext.o 

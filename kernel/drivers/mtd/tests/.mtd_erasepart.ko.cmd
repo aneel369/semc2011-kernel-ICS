@@ -1,1 +1,0 @@
-cmd_drivers/mtd/tests/mtd_erasepart.ko := ../arm-2010q1/bin/arm-none-eabi-ld -EL -r  -T /home/dds/Desktop/DDSkernelICS/kernel/scripts/module-common.lds --build-id -o drivers/mtd/tests/mtd_erasepart.ko drivers/mtd/tests/mtd_erasepart.o drivers/mtd/tests/mtd_erasepart.mod.o

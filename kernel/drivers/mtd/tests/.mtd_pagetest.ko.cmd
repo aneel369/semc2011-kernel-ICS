@@ -1,1 +1,0 @@
-cmd_drivers/mtd/tests/mtd_pagetest.ko := ../arm-2010q1/bin/arm-none-eabi-ld -EL -r  -T /home/dds/Desktop/DDSkernelICS/kernel/scripts/module-common.lds --build-id -o drivers/mtd/tests/mtd_pagetest.ko drivers/mtd/tests/mtd_pagetest.o drivers/mtd/tests/mtd_pagetest.mod.o

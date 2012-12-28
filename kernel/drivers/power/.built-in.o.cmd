@@ -1,1 +1,0 @@
-cmd_drivers/power/built-in.o :=  ../arm-2010q1/bin/arm-none-eabi-ld -EL    -r -o drivers/power/built-in.o drivers/power/power_supply.o drivers/power/bq27520_battery.o drivers/power/bq24185_charger.o drivers/power/battery_chargalg.o 

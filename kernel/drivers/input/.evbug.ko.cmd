@@ -1,1 +1,0 @@
-cmd_drivers/input/evbug.ko := ../arm-2010q1/bin/arm-none-eabi-ld -EL -r  -T /home/dds/Desktop/DDSkernelICS/kernel/scripts/module-common.lds --build-id -o drivers/input/evbug.ko drivers/input/evbug.o drivers/input/evbug.mod.o
