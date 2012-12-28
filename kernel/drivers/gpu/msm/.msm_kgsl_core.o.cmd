@@ -1,0 +1,1 @@
+cmd_drivers/gpu/msm/msm_kgsl_core.o := ../arm-2010q1/bin/arm-none-eabi-ld -EL    -r -o drivers/gpu/msm/msm_kgsl_core.o drivers/gpu/msm/kgsl.o drivers/gpu/msm/kgsl_sharedmem.o drivers/gpu/msm/kgsl_pwrctrl.o drivers/gpu/msm/kgsl_pwrscale.o drivers/gpu/msm/kgsl_mmu.o drivers/gpu/msm/kgsl_gpummu.o drivers/gpu/msm/kgsl_debugfs.o 
