@@ -1,3 +1,4 @@
+Version=DDS_0.2
 PATH=arm-2010q1/bin:$PATH
 export PATH
 cd kernel
@@ -11,5 +12,5 @@ find . | cpio --quiet -o -H newc | gzip > ../ramdisk.img
 cd ../../
 ./mkbootimg --base 0x00200000 --kernel kernel/arch/arm/boot/zImage --ramdisk ramdisk/ramdisk.img -o boot.img
 #zip boot.img
-./zip kernel_mini_ics.zip boot.img
+./zip kernel_mini_ics_${Version}.zip boot.img
 rm boot.img
