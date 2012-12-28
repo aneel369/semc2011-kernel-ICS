@@ -1,0 +1,1 @@
+cmd_arch/arm/mach-msm/dma_test.ko := ../arm-2010q1/bin/arm-none-eabi-ld -EL -r  -T /home/dds/Desktop/DDSkernelICS/kernel/scripts/module-common.lds --build-id -o arch/arm/mach-msm/dma_test.ko arch/arm/mach-msm/dma_test.o arch/arm/mach-msm/dma_test.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/mtd/tests/mtd_stresstest.ko := ../arm-2010q1/bin/arm-none-eabi-ld -EL -r  -T /home/dds/Desktop/DDSkernelICS/kernel/scripts/module-common.lds --build-id -o drivers/mtd/tests/mtd_stresstest.ko drivers/mtd/tests/mtd_stresstest.o drivers/mtd/tests/mtd_stresstest.mod.o

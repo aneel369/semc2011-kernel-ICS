@@ -1,4 +1,4 @@
-cmd_arch/arm/mach-msm/qdsp5v2/snddev_data_marimba.o := ../arm-2010q1/bin/arm-none-eabi-gcc -Wp,-MD,arch/arm/mach-msm/qdsp5v2/.snddev_data_marimba.o.d  -nostdinc -isystem /home/dds/Desktop/DDSkernelICS/arm-2010q1/bin/../lib/gcc/arm-none-eabi/4.4.1/include -Iinclude  -I/home/dds/Desktop/DDSkernelICS/kernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -Werror -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fomit-frame-pointer -g -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fno-dwarf2-cfi-asm -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(snddev_data_marimba)"  -D"KBUILD_MODNAME=KBUILD_STR(snddev_data_marimba)" -D"DEBUG_HASH=45" -D"DEBUG_HASH2=37" -c -o arch/arm/mach-msm/qdsp5v2/snddev_data_marimba.o arch/arm/mach-msm/qdsp5v2/snddev_data_marimba.c
+cmd_arch/arm/mach-msm/qdsp5v2/snddev_data_marimba.o := ../arm-2010q1/bin/arm-none-eabi-gcc -Wp,-MD,arch/arm/mach-msm/qdsp5v2/.snddev_data_marimba.o.d  -nostdinc -isystem /home/dds/Desktop/DDSkernelICS/arm-2010q1/bin/../lib/gcc/arm-none-eabi/4.4.1/include -Iinclude  -I/home/dds/Desktop/DDSkernelICS/kernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fomit-frame-pointer -g -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fno-dwarf2-cfi-asm -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(snddev_data_marimba)"  -D"KBUILD_MODNAME=KBUILD_STR(snddev_data_marimba)" -D"DEBUG_HASH=45" -D"DEBUG_HASH2=37" -c -o arch/arm/mach-msm/qdsp5v2/snddev_data_marimba.o arch/arm/mach-msm/qdsp5v2/snddev_data_marimba.c
 
 deps_arch/arm/mach-msm/qdsp5v2/snddev_data_marimba.o := \
   arch/arm/mach-msm/qdsp5v2/snddev_data_marimba.c \
@@ -390,7 +390,7 @@ deps_arch/arm/mach-msm/qdsp5v2/snddev_data_marimba.o := \
     $(wildcard include/config/mach/semc/mango.h) \
     $(wildcard include/config/mach/semc/ayame.h) \
     $(wildcard include/config/mach/semc/haida.h) \
-  arch/arm/mach-msm/include/mach/qdsp5v2/marimba_profile_mango.h \
+  arch/arm/mach-msm/include/mach/qdsp5v2/marimba_profile_smultron.h \
   arch/arm/mach-msm/include/mach/qdsp5v2/aux_pcm.h \
   arch/arm/mach-msm/include/mach/qdsp5v2/snddev_ecodec.h \
   arch/arm/mach-msm/include/mach/qdsp5v2/audio_dev_ctl.h \

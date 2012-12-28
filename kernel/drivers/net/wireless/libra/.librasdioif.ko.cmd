@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/libra/librasdioif.ko := ../arm-2010q1/bin/arm-none-eabi-ld -EL -r  -T /home/dds/Desktop/DDSkernelICS/kernel/scripts/module-common.lds --build-id -o drivers/net/wireless/libra/librasdioif.ko drivers/net/wireless/libra/librasdioif.o drivers/net/wireless/libra/librasdioif.mod.o

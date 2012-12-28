@@ -1,4 +1,4 @@
-cmd_arch/arm/mach-msm/board-semc_mogami.o := ../arm-2010q1/bin/arm-none-eabi-gcc -Wp,-MD,arch/arm/mach-msm/.board-semc_mogami.o.d  -nostdinc -isystem /home/dds/Desktop/DDSkernelICS/arm-2010q1/bin/../lib/gcc/arm-none-eabi/4.4.1/include -Iinclude  -I/home/dds/Desktop/DDSkernelICS/kernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -Werror -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fomit-frame-pointer -g -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fno-dwarf2-cfi-asm -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(board_semc_mogami)"  -D"KBUILD_MODNAME=KBUILD_STR(board_semc_mogami)" -D"DEBUG_HASH=10" -D"DEBUG_HASH2=56" -c -o arch/arm/mach-msm/board-semc_mogami.o arch/arm/mach-msm/board-semc_mogami.c
+cmd_arch/arm/mach-msm/board-semc_mogami.o := ../arm-2010q1/bin/arm-none-eabi-gcc -Wp,-MD,arch/arm/mach-msm/.board-semc_mogami.o.d  -nostdinc -isystem /home/dds/Desktop/DDSkernelICS/arm-2010q1/bin/../lib/gcc/arm-none-eabi/4.4.1/include -Iinclude  -I/home/dds/Desktop/DDSkernelICS/kernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fomit-frame-pointer -g -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fno-dwarf2-cfi-asm -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(board_semc_mogami)"  -D"KBUILD_MODNAME=KBUILD_STR(board_semc_mogami)" -D"DEBUG_HASH=10" -D"DEBUG_HASH2=56" -c -o arch/arm/mach-msm/board-semc_mogami.o arch/arm/mach-msm/board-semc_mogami.c
 
 deps_arch/arm/mach-msm/board-semc_mogami.o := \
   arch/arm/mach-msm/board-semc_mogami.c \
@@ -3396,7 +3396,6 @@ deps_arch/arm/mach-msm/board-semc_mogami.o := \
     $(wildcard include/config/vga/console.h) \
   arch/arm/mach-msm/include/mach/hardware.h \
   include/linux/msm_fb_panel.h \
-  include/linux/mddi_sii_r61529_hvga.h \
   arch/arm/mach-msm/include/mach/simple_remote_msm7x30_pf.h \
   include/linux/battery_chargalg.h \
     $(wildcard include/config/battery/chargalg/enable/step/charging.h) \

@@ -24,13 +24,13 @@
 @ /home/dds/Desktop/DDSkernelICS/arm-2010q1/bin/../lib/gcc/arm-none-eabi/4.4.1/include
 @ -include include/linux/autoconf.h -MD kernel/.bounds.s.d kernel/bounds.c
 @ -mlittle-endian -marm -mabi=aapcs-linux -mno-thumb-interwork
-@ -march=armv7-a -msoft-float -auxbase-strip kernel/bounds.s -g -Os -Wall
-@ -Wundef -Wstrict-prototypes -Wno-trigraphs -Werror
-@ -Werror-implicit-function-declaration -Wno-format-security
-@ -Wframe-larger-than=1024 -Wdeclaration-after-statement -Wno-pointer-sign
-@ -fno-strict-aliasing -fno-common -fno-delete-null-pointer-checks
-@ -funwind-tables -fno-stack-protector -fomit-frame-pointer
-@ -fno-strict-overflow -fno-dwarf2-cfi-asm -fconserve-stack -fverbose-asm
+@ -march=armv7-a -msoft-float -auxbase-strip kernel/bounds.s -g -Os -Wundef
+@ -Wstrict-prototypes -Wno-trigraphs -Werror-implicit-function-declaration
+@ -Wno-format-security -Wframe-larger-than=1024
+@ -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-aliasing
+@ -fno-common -fno-delete-null-pointer-checks -funwind-tables
+@ -fno-stack-protector -fomit-frame-pointer -fno-strict-overflow
+@ -fno-dwarf2-cfi-asm -fconserve-stack -fverbose-asm
 @ options enabled:  -falign-loops -fargument-alias -fauto-inc-dec
 @ -fbranch-count-reg -fcaller-saves -fcprop-registers -fcrossjumping
 @ -fcse-follow-jumps -fdefer-pop -fearly-inlining

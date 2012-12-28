@@ -1,0 +1,1 @@
+cmd_drivers/mtd/tests/mtd_subpagetest.ko := ../arm-2010q1/bin/arm-none-eabi-ld -EL -r  -T /home/dds/Desktop/DDSkernelICS/kernel/scripts/module-common.lds --build-id -o drivers/mtd/tests/mtd_subpagetest.ko drivers/mtd/tests/mtd_subpagetest.o drivers/mtd/tests/mtd_subpagetest.mod.o
